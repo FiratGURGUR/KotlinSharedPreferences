@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
         val isimGoster = sharedPreferences.getString("adsoyad","isimsiz")
         val sifreGoster = sharedPreferences.getString("sifre","şifre yok")
         Toast.makeText(applicationContext,"İsim : $isimGoster - Şifre : $sifreGoster",Toast.LENGTH_LONG).show()
-
     }
 
     fun veriSil(view: View)
