@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     fun veriGoster(view: View)
     {
         val sharedPreferences = this.getSharedPreferences(packageName,android.content.Context.MODE_PRIVATE)
